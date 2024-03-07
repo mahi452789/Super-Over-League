@@ -1,0 +1,25 @@
+/* Write your code here. */
+.background-bottom {
+  background-color: #0f172a;
+  text-align: center;
+  height: 100vh;
+}
+.heading {
+  font-family: 'roboto';
+  color: #f8fafc;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 15px;
+}
+.image {
+  width: 150px;
+  height: 190px;
+}
+@media not screen and (max-width: 576px) {
+  background-image: url('https://assets.ccbp.in/frontend/content/react-js/super-over-league-sm-output.png');
+  height: 100vh;
+}
+@media not screen and(min-width:768px) and (max-width: 1200px) {
+  background-image: url('https://assets.ccbp.in/frontend/content/react-js/super-over-league-lg-output.png');
+  height: 100vh;
+}
